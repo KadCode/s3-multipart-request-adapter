@@ -1,0 +1,49 @@
+# Binary files
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Build output files
+*.out
+*.test
+
+# Dependencies
+vendor/
+go.sum
+
+# Cache and temporary files
+*.log
+*.cache
+tmp/
+.temp/
+
+# Environment configuration files
+.env
+*.env.local
+*.env.*.local
+
+# Go tools
+go.work
+go.work.sum
+coverage.out
+profile.out
+
+# Editors and IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Documentation and other files
+LICENSE
+
+# Certificates
+certs/

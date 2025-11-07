@@ -1,0 +1,9 @@
+basePath: /
+info:
+  contact: {}
+  description: API for uploading, downloading, listing and managing document objects
+    stored in S3-compatible storage.
+  title: S3 Multipart Content Server Adapter
+  version: "1.0"
+paths: {}
+swagger: "2.0"
