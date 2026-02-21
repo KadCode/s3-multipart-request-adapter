@@ -1,0 +1,9 @@
+s3:
+  url: "http://localhost:9000"
+  accessKey: "minio_user"
+  secretKey: "minio_password"
+  session: ""
+  region: "us-east-1"
+  hostnameImmutable: true
+  maxConnections: 100
+  bucketName: "test-bucket"

@@ -1,0 +1,18 @@
+server:
+  port: 8080
+s3:
+  url: "http://minio:9000"
+  accessKey: "minio_user"
+  secretKey: "minio_password"
+  region: "aws-global"
+  maxConnections: 100
+  bucketName: "test-bucket"
+fiber:
+  prefork: false
+  case_sensitive: true
+  strict_routing: true
+  server_header: "Fiber Based Server"
+  app_name: "S3-multipart-request-adapter v1.0.0"
+  read_timeout: "10s"
+  body_limit: 1073741824  # 1024 * 1024 * 1024
+  port: ":8080"
